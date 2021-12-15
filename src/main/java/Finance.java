@@ -56,7 +56,7 @@ public class Finance {
             }
             else
             {
-                System.out.println(command + ": command not found");
+                System.out.println(commandsToUsage.get(command));
             }
         }
         else
